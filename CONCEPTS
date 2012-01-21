@@ -32,3 +32,17 @@ the following:
 	  setting up new threads.
 	* The system should be able to be distributed.
 
+Some less-structured thoughts on the design follow.
+
+* Cryptographic signing seems like the best way to support anonymous
+  posting. If a user can define as many new ones as they wish, it
+  becomes easy to indicate when multiple posts are by "the same
+  person," but without any other details being revealed.
+* Ideally, there should be a Google-Wave-like "Inbox," which contains
+  all current threads for a user.
+* It is possible that the best place to focus would be
+  individually-created comment threads, like those on blog posts and
+  news articles, and let full forums follow later, if at all.
+* The system would likely be set up with one server initially, with
+  support for others to be brought online. Security will have to be
+  handled very carefully.
