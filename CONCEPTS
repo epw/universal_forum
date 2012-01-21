@@ -1,0 +1,34 @@
+The universal forum is inspired primarily by Google Wave.
+
+Forums and comment systems exist all over the Web. Some use standard
+packages, such as phpBB, while others are specifically written for
+sites, all with varying complexity. There are certain advantages to
+this fragmentation. An individual can choose how ananymous they wish
+to be. Most forums allow a username to be chosen, allowing unique ones
+to identify a commentor on a given site without linking them to other
+parts of the Web.
+
+However, there are also a number of drawbacks to the current model of
+Web comment systems. First, the effort of writing one is often
+duplicated, as Web designers write specific comment systems tailored
+to their sites. In addition, there is no method for an individual
+commentor to consolidate their inputs scattered across the Web.
+
+This project attempts to find a way to provide a universal fourm
+system that can be used on many Web sites, while retaining as mamy of
+the positive features of the widely-varying forums currently in use.
+
+In order for this project to meet its requirements, it should address
+the following:
+
+	* Users must be able to control their level of anonymity.
+	* The appearance must be fully customizeable, to allow
+	  seamless integration into existing sites.
+	* There should be little barrier to entry for a user seeking
+	  to post a thought.
+	* The system should be able to integrate with existing
+	  communication channels, starting with email.
+	* The system should define an API to allow programs to control
+	  setting up new threads.
+	* The system should be able to be distributed.
+
