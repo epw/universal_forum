@@ -46,3 +46,17 @@ Some less-structured thoughts on the design follow.
 * The system would likely be set up with one server initially, with
   support for others to be brought online. Security will have to be
   handled very carefully.
+* Facebook has attempted this, to little success.
+  * The Facebook comment areas often seem disconnected from the rest
+    of the page.
+  * Some people do not seem to like having the comment associated with
+    their Facebook account.
+  * For low barrier-to-entry, make as many accounts useable as logins
+    as possible, so people have the option to use Facebook if they
+    want to.
+* Security will be complicated. This system is for publically-viewable
+  threads, but should support ways to prove a user's identity as far
+  as they wish. It must handle disconnected screennames, as well as
+  verifying when a user wants to show their Facebook, Google+, and
+  other pages. If not careful, it could allow someone to claim they
+  are someone they are not.
